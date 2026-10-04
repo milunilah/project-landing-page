@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  /* overflow: hidden; */
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* img {
+  width: 600px;
+} */
+
+/* input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+} */
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: blue;
+  padding: 8px 25px;
+  margin: 10px 0;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  background-color: black;
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: grey;
+  padding: 15px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 100px;
+}
+
+.one {
+  gap: 50px;
+  background-color: black;
+  color: white;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  width: 600px;
+  height: 150px;
+  background-color: grey;
+}
+
+.two {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.c2box {
+  display: flex;  
+}
+
+.img-placeholder {
+  display: flex;
+  flex-shrink: 1;
+  height: 50px;
+  width: 50px;
+  border: solid 5px aqua;
+  border-radius: 5px;
+}
+
+.three {
+  flex-direction: column;
+  background-color: grey;
+}
+
+.c3text1 {
+  margin: 12px;
+}
+
+.four {
+  margin: 50px;
+  padding: 50px;
+  background-color: blue;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.c4button button {
+  border: solid 2px white;
+}
