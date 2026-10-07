@@ -25,7 +25,7 @@ button {
   border: none;
   border-radius: 8px;
   color: white;
-  background: blue;
+  background: #3b82f6ff;
   padding: 8px 25px;
   margin: 10px 0;
 }
@@ -41,15 +41,15 @@ button {
   display: flex;
   /* width: 100%; */
   justify-content: space-between;
-  background-color: black;
-  color: grey;
+  background-color: #1f2937ff;
+  color: #e5e7ebff;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   background-color: black;
-  color: grey;
+  color: #e5e7ebff;
   padding: 15px;
 }
 
@@ -80,7 +80,7 @@ a {
 
 .one {
   gap: 50px;
-  background-color: black;
+  background-color: #1f2937ff;
   color: white;
 }
 
@@ -108,18 +108,24 @@ a {
   display: flex;  
 }
 
-.img-placeholder {
+.subcontainer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-placeholder {
   flex-shrink: 1;
   height: 50px;
   width: 50px;
-  border: solid 5px aqua;
+  border: solid 5px #3b82f6ff;
   border-radius: 5px;
 }
 
 .three {
   flex-direction: column;
-  background-color: grey;
+  background-color: #e5e7ebff;
 }
 
 .c3text1 {
@@ -129,7 +135,7 @@ a {
 .four {
   margin: 50px;
   padding: 50px;
-  background-color: blue;
+  background-color: #3b82f6ff;
   border-radius: 8px;
   gap: 20px;
 }
