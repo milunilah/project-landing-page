@@ -5,6 +5,7 @@ body {
   margin: 0;
   /* overflow: hidden; */
   font-family: Roboto, sans-serif;
+  font-size: 10pt;
   display: flex;
   flex-direction: column;
 }
@@ -37,20 +38,22 @@ button {
   align-items: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 100px;
+}
+
+/* ----- HEADER ----- */
+
 .header {
   display: flex;
   /* width: 100%; */
   justify-content: space-between;
   background-color: #1f2937ff;
-  color: #e5e7ebff;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  color: #e5e7ebff;
-  padding: 15px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .left-links, .right-links {
@@ -67,18 +70,25 @@ ul {
 }
 
 a {
-  color: grey;
+  color: #fff;
   text-decoration: none;
+  font-weight: normal;
 }
 
-.container {
+/* ----- FOOTER ----- */
+
+.footer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 60px 100px;
+  background-color: black;
+  color: #e5e7ebff;
+  padding: 15px;
 }
 
+/* ----- FIRST ----- */
+
 .one {
+  display: flex;
   gap: 50px;
   background-color: #1f2937ff;
   color: white;
@@ -89,19 +99,36 @@ a {
   flex-direction: column;
 }
 
+.left1 {
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+.left2 {
+  font-size: 12pt;
+}
+
 .right {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 1;
-  width: 600px;
+  box-sizing: border-box;
+  max-width: 600px;
   height: 150px;
   background-color: grey;
 }
 
+/* ----- SECOND ----- */
+
 .two {
   flex-direction: column;
   gap: 20px;
+}
+
+.c2text {
+  font-size: 20pt;
+  font-weight: bold;
 }
 
 .c2box {
@@ -113,15 +140,23 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 6pt;
 }
 
 .img-placeholder {
   flex-shrink: 1;
-  height: 50px;
-  width: 50px;
-  border: solid 5px #3b82f6ff;
-  border-radius: 5px;
+  flex-grow: 1;
+  height: 100px;
+  width: 100px;
+  border: solid 3px #3b82f6ff;
+  border-radius: 15px;
 }
+
+.subtext {
+  font-size: 8pt;
+}
+
+/* ----- THIRD ----- */
 
 .three {
   flex-direction: column;
@@ -130,7 +165,16 @@ a {
 
 .c3text1 {
   margin: 12px;
+  font-style: italic;
+  font-size: 16pt;
+  font-weight: 100;
 }
+
+.c3text2 {
+
+}
+
+/* ----- FOURTH ----- */
 
 .four {
   margin: 50px;
