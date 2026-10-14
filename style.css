@@ -29,19 +29,18 @@ button {
   background: #3b82f6ff;
   padding: 8px 25px;
   margin: 10px 0;
+  height: 35px;
+  width: 100px;
 }
 
 .content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 60px 100px;
 }
 
@@ -51,6 +50,7 @@ button {
   display: flex;
   /* width: 100%; */
   justify-content: space-between;
+  padding: 15px 100px 0px 100px;
   background-color: #1f2937ff;
   color: #fff;
   font-weight: bold;
@@ -59,7 +59,6 @@ button {
 .left-links, .right-links {
   display: flex;
   gap: 12px;
-  padding: 12px;
 }
 
 ul {
@@ -80,9 +79,10 @@ a {
 .footer {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #1f2937ff;
   color: #e5e7ebff;
   padding: 15px;
+  font-size: 9pt;
 }
 
 /* ----- FIRST ----- */
@@ -105,16 +105,17 @@ a {
 }
 
 .left2 {
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 .right {
+  flex: 0 0 360px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 1;
   box-sizing: border-box;
-  max-width: 600px;
+  width: 600px;
   height: 150px;
   background-color: grey;
 }
@@ -129,10 +130,13 @@ a {
 .c2text {
   font-size: 20pt;
   font-weight: bold;
+  align-self: center;
 }
 
 .c2box {
   display: flex;  
+  margin: 5px 40px;
+  gap: 10px;
 }
 
 .subcontainer {
@@ -159,31 +163,50 @@ a {
 /* ----- THIRD ----- */
 
 .three {
+  display: flex;
   flex-direction: column;
   background-color: #e5e7ebff;
+  gap: 10px;
 }
 
 .c3text1 {
+  align-self: flex-start;
   margin: 12px;
-  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 16pt;
-  font-weight: 100;
+  font-style: italic;
 }
 
 .c3text2 {
-
+  align-self: flex-end;
+  margin: 12px;
 }
 
 /* ----- FOURTH ----- */
 
 .four {
-  margin: 50px;
-  padding: 50px;
+  display: flex;
+  margin: 60px 120px;
+  padding: 20px 60px;
   background-color: #3b82f6ff;
   border-radius: 8px;
-  gap: 20px;
+  color: white;
+  justify-content: space-between;
+}
+
+.c4text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.c4text1 {
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 3px;
 }
 
 .c4button button {
-  border: solid 2px white;
+  border: solid 2px;
 }
